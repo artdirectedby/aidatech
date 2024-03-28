@@ -1,0 +1,132 @@
+.footer{
+    margin-top: 0px;
+    height: 70vh;
+    background-color: #285ede;
+    display: flex;
+    align-items: flex-end;
+    padding: 100px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Formular', sans-serif;
+}
+
+
+.header-main {
+    -webkit-backdrop-filter: blur(15px) brightness(100%);
+    align-items: center;
+    align-self: stretch;
+    backdrop-filter: blur(15px) brightness(100%);
+    background-color: #161617e0;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    .logo {
+        height: 30px;
+        position: relative;
+        width: 81px;
+    }
+  
+    .navbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 634px;
+    }
+  
+    .text-wrapper {
+        color: #ffffff;
+        font-family: "Formular", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: normal;
+        position: relative;
+        width: fit-content;
+    }
+  
+    .button {
+        align-items: center;
+        background-color: #0050ff;
+        border-radius: 41px;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 10px;
+        overflow: hidden;
+        padding: 10px 20px;
+        position: relative;
+    }
+  
+    .div {
+        color: #ffffff;
+        font-family: "Formular", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: normal;
+        margin-top: -1px;
+        position: relative;
+        width: fit-content;
+    }
+}
+  
+
+.feature-slides-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    .feature-slide{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+        
+
+        .feature-slide-title{
+            font-family: 'Formular', sans-serif;
+            font-size: 4.5vw;
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: 900;
+            color: #222;
+        }
+
+        .feature-slide-description{
+            font-family: 'Formular', sans-serif;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            line-height: 1.3;
+            color: #222;
+        }
+    }
+    .feature-slides-right{
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0;
+            transition: all 1s ease-in-out;
+            transform: scale(1.3);
+            position: absolute;
+            top: 0;
+            &.as-primary{
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

@@ -1,0 +1,176 @@
+form {
+    align-items: flex-end;
+    background-color: #ffffff;
+    display: flex;
+    gap: 85px;
+    padding: 85px 102px 113px;
+    position: relative;
+  }
+  
+  .main {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 41px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .title {
+    color: #222222;
+    font-family: "Formular-Bold", sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .fields {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Separate selector for the textarea within .fields */
+  .fields textarea {
+    border: none;
+    border-bottom: 1px solid #222222;
+    background-color: transparent;
+    color: black;
+    font-family: "Formular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: auto; /* Adjusts the height automatically based on the content */
+    min-height: 100px; /* Ensures the textarea does not exceed its container's width */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none;
+  }
+  
+  /* Removed properties that are not applicable or necessary for the textarea */
+  
+
+  
+  input {
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 15px; /* Adjust if necessary to reduce or increase bottom space */
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #222222;
+    font-family: 'Formular', sans-serif; /* Ensure the input text matches the placeholder font */
+    font-size: 20px; /* Match with placeholder for consistent sizing */
+    font-weight: 400; /* Match with placeholder for consistent weight */
+  }
+  
+  input::placeholder {
+    color: #8C8C8C;
+  }
+  
+  .checkbox-container {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    color: #222222;
+    .checkbox-text{
+      font-family: 'Formular', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 24px;
+      margin-top: -1px;
+      position: relative;
+      white-space: nowrap;
+      width: fit-content;
+    }
+  }
+  
+
+
+  
+  .file-input-container {
+    display: inline-flex;
+    padding: 20px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    flex: 0 0 auto;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    .filename-placeholder{
+      color: #8b8b8b;
+      font-family: "Formular", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      left: 25px;
+      letter-spacing: 0;
+      line-height: normal;
+      position: absolute;
+      top: 1px;
+      white-space: nowrap;
+    }
+    .paperclip-icon {
+      height: 26px;
+      left: -1px;
+      position: absolute;
+      top: -1px;
+      width: 16px;
+      background-image: url('https://cdn.animaapp.com/projects/65fda43e03961e9ed716ec98/releases/6602ed9a4c12977b15c77f7e/img/vector.svg'); /* Replace with your actual image path */
+    }
+  }
+  
+  
+  .request-NDA {
+    flex: 0 0 auto !important;
+  }
+  
+  .send-button {
+    background-color: #275ede;
+    border: none;
+    border-radius: 185px;
+    height: 372px;
+    position: relative;
+    width: 372px;
+  }
+  
+  .button-text {
+    color: #ffffff;
+    font-family: "Formular-Light", Helvetica;
+    font-size: 48px;
+    font-weight: 300;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 140px;
+  }
+  
+  .arrow {
+    height: 10px;
+    left: 104px;
+    position: absolute;
+    top: 242px;
+    width: 34px;
+  }
+  

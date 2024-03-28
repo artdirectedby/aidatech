@@ -8,3 +8,9 @@ module.exports = {
   },
   plugins: [],
 }
+module.exports = {
+  plugins: [
+    'gatsby-plugin-sass',
+    // other plugins...
+  ],
+}

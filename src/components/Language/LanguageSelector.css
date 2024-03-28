@@ -1,0 +1,16 @@
+select {
+    padding: 5px 10px;
+    outline: none;
+    border: 0px solid blue;
+    cursor: pointer;
+    background-color: rgba(22, 22, 23, 0); /* Semi-transparent background */
+    font-family: "Formular", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    will-change: transform; /* Example of creating a new stacking context */
+  }
+  
+
+  /* Additional styling as needed */
+  
